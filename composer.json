@@ -1,0 +1,21 @@
+{
+    "name": "petelawrence/botman-middleware-amazonrekognition",
+    "description": "Amazon Rekognition middleware for BotMan",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pete Lawrence",
+            "email": "petejlawrence@icloud.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "botman/botman": "~2.1",
+        "aws/aws-sdk-php": "^3.52"
+    },
+    "autoload": {
+        "psr-4": {
+            "PeteLawrence\\BotMan\\": "src/"
+        }
+    }
+}
